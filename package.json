@@ -1,0 +1,16 @@
+{
+	"name": "lcd-tweets",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"dependencies": {
+		"i2c": "*",
+		"moment": "*",
+		"twitter": "*"
+	},
+	"devDependencies": {
+		"nodemon": "*"
+	}
+}
